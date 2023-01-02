@@ -101,7 +101,13 @@
     <div class="funnycolor">
     </div>
     
-    <script src="script.js">
+    <script>
+        const navbar = document.querySelector('.topnavlinks');
+  const menuButton = document.querySelector('.mobileham');
+
+  menuButton.addEventListener('click', () => {
+    navbar.classList.toggle('responsive');
+  });
     </script>
 </body>
 </html>

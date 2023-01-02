@@ -24,6 +24,13 @@
     visibility: hidden;        
 }
 
+.responsive{
+    visibility: block;
+    width: 100vw;
+    height: 50px;
+    background-color: #FBFAF8;
+}
+
 .topnavlinks{
     overflow: hidden;
     display: flex;
