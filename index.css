@@ -91,7 +91,8 @@
 }
 
 .function{
-    display: block;
+    display: flex;
+    gap: 100px;
     margin-right: 76px;
     margin-left: 76px;
     margin-top: 100px;
@@ -125,6 +126,11 @@
     width: 560px;
 }
 
+.thirdsection div{
+    display: flex;
+    justify-content: center;
+}
+
 .thirdsection{
     margin-top: 200px;
     display: block;
@@ -137,7 +143,7 @@
 }
 
 .fourthsection{
-    display: block;
+    display: flex;
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -470,9 +476,7 @@ cursor: pointer;
     }
     
     .fourthsection{
-        display: grid;
-        gap: 40px;
-        align-items: center;
+        display: block;
         margin-top: 100px;
         margin-bottom: 100px;
     }
@@ -504,6 +508,7 @@ cursor: pointer;
     }
     
     .Servicedesc{
+        margin-top: 40px;
         padding-left: 24px;
     }
     
